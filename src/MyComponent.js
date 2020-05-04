@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const MyComponent = ({name, children }) => {
     
@@ -9,4 +10,9 @@ const MyComponent = ({name, children }) => {
 MyComponent.defaultProps = {
     name : 'react'
 };
+
+MyComponent.PropTypes = {
+    name : PropTypes.string
+};
+
 export default MyComponent;
