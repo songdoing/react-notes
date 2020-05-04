@@ -1,8 +1,9 @@
 import React from 'react';
 
-const MyComponent = props => {
+const MyComponent = ({name, children }) => {
+    
     return (
-        <div> Hello. I'm {props.name}. <br/> The value of children is {props.children}</div>
+        <div> Hello. I'm {name}. <br/> The value of children is {children}</div>
     );    
 };
 MyComponent.defaultProps = {
