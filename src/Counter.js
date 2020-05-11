@@ -22,7 +22,11 @@ class Counter extends Component {
                 <h1>{number}</h1>
         <h2> Unchanged Number : {fixedNumber}</h2>
                 <button onClick={() => {
-                    this.setState ({number : number +1});
+                   this.setState(prevState => ({
+                       number : prevState.number +1
+                   }));
+                   
+                   // this.setState ({number : number +1});
                 }}
                 > +1 </button>
             </div>
