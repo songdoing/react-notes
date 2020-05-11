@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 
 class Counter extends Component {
+    state = {
+        number : 0, 
+        fixedNumber : 0
+    };
+    /*
     constructor(props) {
         super(props);
         //assign the initial value at the state
@@ -9,6 +14,7 @@ class Counter extends Component {
             fixedNumber : 0
         }; 
     }
+    */
     render() {
         const {number, fixedNumber} = this.state; 
         return (
