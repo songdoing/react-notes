@@ -1,8 +1,9 @@
 import React from 'react';
-import MyComponent from './MyComponent';
+import Counter from './Counter';
+import './App.css';
 
 const App = () => {
-  return <MyComponent name="Jenny" favoriteNumber={5}>react</MyComponent>;
+  return <Counter></Counter>;
 };
 
 export default App;
