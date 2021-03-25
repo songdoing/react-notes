@@ -1,12 +1,10 @@
-import React, {Component} from 'react';
-import IterationSample from './IterationSample';
+import React, { Component } from "react";
+import immerSample from "./immerSample";
 //import './App.css';
 
 class App extends Component {
   render() {
-    return (
-      <IterationSample></IterationSample>
-    );
+    return <immerSample></immerSample>;
   }
 }
 
