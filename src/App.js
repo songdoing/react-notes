@@ -1,11 +1,10 @@
-import React, { Component } from "react";
-import immerSample from "./immerSample";
+import React from "react";
+import ImmerSample from "./ImmerSample";
+// import IterationSample from "./IterationSample";
 //import './App.css';
 
-class App extends Component {
-  render() {
-    return <immerSample></immerSample>;
-  }
-}
+const App = () => {
+  return <ImmerSample />;
+};
 
 export default App;
